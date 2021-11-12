@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"         android:background="@drawable/bg"
+    android:weightSum="5">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal|center"
+       android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/ers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:textColor="@color/White"
+            android:textSize="80sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"   android:gravity="top" android:layout_marginTop="5dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/nextbnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/b_selector"
+            android:gravity="center_horizontal|center"
+            android:padding="15dp"
+            android:maxHeight="350dp"
+            android:textSize="@dimen/bt_txt"
+            android:textColor="@color/t_selector"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/tableresult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/b_selector"
+            android:gravity="center_horizontal|center"
+            android:padding="15dp"
+            android:maxHeight="350dp"
+            android:textColor="@color/t_selector"
+            android:textSize="@dimen/bt_txt"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/extbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/b_selector"
+            android:gravity="center_horizontal|center"
+            android:padding="15dp"
+            android:maxHeight="350dp"
+            android:text="ВИЙТИ"
+            android:textSize="@dimen/bt_txt"
+            android:textColor="@color/t_selector"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

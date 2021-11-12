@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="bt_txt">35sp</dimen>
+    <dimen name="t_txt">70sp</dimen>
+    <dimen name="et_txt">45sp</dimen>
+    <dimen name="r_txt">50sp</dimen>
+
+
+</resources>
